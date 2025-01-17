@@ -19,7 +19,11 @@ export default defineConfig({
     },
     react(),
   ],
-
+  build: {
+    commonjsOptions: {
+      transformMixedEsModules: true,
+    },
+  },
   optimizeDeps: {
     force: true,
     esbuildOptions: {
