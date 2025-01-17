@@ -1,6 +1,7 @@
 {
-  "homepage": ".",
+  "homepage": "https://moapplesnoranges.github.io",
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -17,8 +18,10 @@
     "vite": "^6.0.7"
   },
   "scripts": {
-    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write \"src/**/*.{js,jsx,css,html}\"",
     "lint": "eslint",
