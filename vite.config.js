@@ -1,4 +1,5 @@
 import { defineConfig, transformWithEsbuild } from "vite";
+import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
@@ -18,6 +19,7 @@ export default defineConfig({
       },
     },
     react(),
+    tailwindcss(),
   ],
   build: {
     commonjsOptions: {

@@ -1,0 +1,6 @@
+@import "tailwindcss";
+.title {
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+}
