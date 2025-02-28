@@ -15,4 +15,36 @@
   background-color: #1a202c;
   color: white;
 }
-/* text-gray-400 bg-gray-900 body-font height-full */
+
+.name {
+  text-align: center;
+}
+
+.email {
+  text-align: center;
+}
+
+.message {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+.profilepic {
+  width: 20vw;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input,
+textarea {
+  border: 1px solid;
+}
+
+.popup {
+  text-align: center;
+}

@@ -1,15 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import About from "./About";
 import Skills from "./Skills";
-import Testimonials from "./Testimonials";
 
 const Home = () => {
   return (
     <div className="bg-gray-900">
       <div>
         <About className="about-home" />
+        <img src="https://i.imgur.com/Do0bvx4.jpeg" className="profilepic" />
         <Skills />
-        <Testimonials />
       </div>
     </div>
   );

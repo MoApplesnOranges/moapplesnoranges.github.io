@@ -14,6 +14,18 @@ export default function Skills() {
     {
       title: "Python",
     },
+    {
+      title: "FastAPI",
+    },
+    {
+      title: "Microservices",
+    },
+    {
+      title: "AWS",
+    },
+    {
+      title: "POSTGRESQL",
+    },
   ];
 
   return (

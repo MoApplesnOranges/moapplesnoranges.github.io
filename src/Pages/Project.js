@@ -4,36 +4,36 @@ import "../../index.css";
 export default function Projects() {
   const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "Reel Reviews",
+      subtitle: "React and FastAPI",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
+        "Movie reviews and ratings similar to IMDB. Users can create accounts, rate movies, leave reviews and search bar included!",
+      image: "https://i.imgur.com/P7nxiB1.png",
+      link: "https://github.com/MoApplesnOranges/reel-reviews",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "Ping's Art",
+      subtitle: "React and Vite",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-2.gif",
-      link: "https://reedbarger.com",
+        "A gallery of my art. Users can view my art, navigate between different categories, and leave a comment.",
+      image: "https://i.imgur.com/wdqOSCp.png",
+      link: "https://github.com/MoApplesnOranges/pingsart",
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "Car-ify",
+      subtitle: "Django & React & Docker",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
-      link: "https://jsbootcamp.com",
+        "An e-commerce management app that allows users to handle inventory, customer sales, and appointments.",
+      image: "https://i.imgur.com/X6TjfYm.jpeg",
+      link: "https://github.com/MoApplesnOranges/car-ify",
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "Conference GO",
+      subtitle: "Django, microservices, RESTful API",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
-      link: "https://pythonbootcamp.com",
+        "A conference management app that allows users to create conferences, add locations, gather weather data, and more.",
+      image: "https://i.imgur.com/A626ESg.png",
+      link: "https://github.com/MoApplesnOranges/Conference_Show",
     },
   ];
 
@@ -45,9 +45,8 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            These are some of the apps I've built. Check them out and more to
+            come!
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
