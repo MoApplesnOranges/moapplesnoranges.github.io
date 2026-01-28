@@ -23,7 +23,7 @@ const Contact = () => {
         },
         (error) => {
           console.log("FAILED", error.text);
-        }
+        },
       )
       .then(() => {
         setName("");
@@ -33,14 +33,12 @@ const Contact = () => {
       .then(setShowPopup(true));
   };
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center bg-gray-900">
       <form ref={form} className="form">
         <div className="mb-4">
-          <label className="block text-sm font-medium text-gray-700">
-            Name
-          </label>
+          <label className="block text-sm font-medium text-white">Name</label>
           <input
-            className="form-input mt-1 block w-half"
+            className="form-input mt-1 block w-half bg-white"
             type="text"
             value={name}
             name="name"
@@ -48,11 +46,9 @@ const Contact = () => {
           />
         </div>
         <div className="mb-4">
-          <label className="block text-sm font-medium text-gray-700">
-            Email
-          </label>
+          <label className="block text-sm font-medium text-white">Email</label>
           <input
-            className="form-input mt-1 block w-half"
+            className="form-input mt-1 block w-half bg-white"
             type="text"
             value={email}
             name="user_email"
@@ -60,11 +56,11 @@ const Contact = () => {
           />
         </div>
         <div className="mb-4">
-          <label className="block text-sm font-medium text-gray-700">
+          <label className="block text-sm font-medium text-white">
             Message
           </label>
           <textarea
-            className="form-input mt-1 block w-half"
+            className="form-input mt-1 block w-half bg-white"
             placeholder="Type your message here.."
             value={message}
             name="message"
@@ -78,10 +74,19 @@ const Contact = () => {
             type="submit"
             value="Send"
           >
-            Submit
+            Leave a message!
           </Button>
         </div>
       </form>
+      <section className="mt-8 text-center text-white">
+        <h2 className="text-lg font-semibold">Contact Info</h2>
+        <p className="mt-2">
+          Email: <span className="font-medium">will.mo.25890@gmail.com</span>
+        </p>
+        <p>
+          Phone: <span className="font-medium">813-909-5484</span>
+        </p>
+      </section>
       <div className="grid h-screen place-items-center">
         <Modal
           className="flex flex-col items-center justify-center"

@@ -44,6 +44,9 @@ body,
   text-align: center;
 }
 
+.bg-gray-900 {
+  margin-top: auto;
+}
 .profilepic {
   width: 20vw;
   height: auto;
