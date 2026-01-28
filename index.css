@@ -17,7 +17,8 @@ body,
   color: white;
 }
 .project-container {
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   background-color: #1a202c;
   color: white;
 }
@@ -48,7 +49,7 @@ body,
   margin-top: auto;
 }
 .profilepic {
-  width: 20vw;
+  width: min(280px, 60vw);
   height: auto;
   display: block;
   margin-left: auto;
@@ -62,4 +63,31 @@ textarea {
 
 .popup {
   text-align: center;
+}
+
+.project-card {
+  width: 100%;
+  min-height: 220px;
+}
+
+@media (max-width: 640px) {
+  .project-card {
+    min-height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .profilepic {
+    width: 20vw;
+    max-width: 320px;
+  }
+}
+
+.form {
+  width: 100%;
+}
+
+.form-input {
+  width: 100%;
+  max-width: 100%;
 }

@@ -33,8 +33,8 @@ const Contact = () => {
       .then(setShowPopup(true));
   };
   return (
-    <div className="flex flex-col items-center justify-center bg-gray-900">
-      <form ref={form} className="form">
+    <div className="flex flex-col items-center justify-center bg-gray-900 px-6">
+      <form ref={form} className="form w-full max-w-xl">
         <div className="mb-4">
           <label className="block text-sm font-medium text-white">Name</label>
           <input
@@ -87,7 +87,7 @@ const Contact = () => {
           Phone: <span className="font-medium">813-909-5484</span>
         </p>
       </section>
-      <div className="grid h-screen place-items-center">
+      <div className="grid place-items-center w-full py-6">
         <Modal
           className="flex flex-col items-center justify-center"
           show={showPopup}
