@@ -33,7 +33,7 @@ const Contact = () => {
       .then(setShowPopup(true));
   };
   return (
-    <div className="flex flex-col items-center justify-center bg-gray-900 px-6">
+    <div className="flex flex-col items-center justify-center bg-gray-900 h-full min-h-screen">
       <form ref={form} className="form w-full max-w-xl">
         <div className="mb-4">
           <label className="block text-sm font-medium text-white">Name</label>
@@ -61,7 +61,6 @@ const Contact = () => {
           </label>
           <textarea
             className="form-input mt-1 block w-half bg-white"
-            placeholder="Type your message here.."
             value={message}
             name="message"
             onChange={(e) => setMessage(e.target.value)}
