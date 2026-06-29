@@ -16,7 +16,7 @@ export default function Projects() {
       subtitle: "React and Vite",
       description:
         "A gallery of my art. Users can view my art, navigate between different categories, and leave a comment.",
-      image: "https://i.imgur.com/wdqOSCp.png",
+      image: "https://i.imgur.com/DS2nXMW.png",
       link: "https://github.com/MoApplesnOranges/pingsart",
     },
     {
